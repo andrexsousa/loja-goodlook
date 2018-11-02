@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="mobile-web-app-capable" content="yes">
+    <!-- manifesto PWA-->
+    <!-- para aparecer o ícone na aba do título -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="gl.png">
+    <!--Configuração IOS-->
+    <link rel="apple-touch-icon" href="/custom_icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="toque-ícone-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="toque-ícone-ipad-retina.png">
+    <link rel="apple-touch-startup-image" href="/launch.png">
+    <meta name="apple-mobile-web-app-title" content="AppTitle">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/galeria.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.velocity.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <script src="js/bgcarousel.js" type="text/javascript">
+
+    /***********************************************
+    * Background Image Carousel- (c) Dynamic Drive (www.dynamicdrive.com)
+    * Please keep this notice intact
+    * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+    ***********************************************/
+
+    </script>
+    <script type="text/javascript">
+
+var firstbgcarousel=new bgCarousel({
+wrapperid: 'mybgcarousel', //ID of blank DIV on page to house carousel
+imagearray: [
+['bowie.jpg','<h2>&#9679;○○</h2>'], //["image_path", "optional description"]
+['bowie.jpg','<h2>○&#9679;○</h2>'],
+['bowie.jpg','<h2>○○&#9679;</h2>'],
+//['redbench.jpg', 'Alone and Lonliness- Peace and Inner Struggle'] //<--no trailing comma after very last image element!
+],
+displaymode: {type:'auto', pause:10000, cycles:2, stoponclick:false, pauseonmouseover:true},
+navbuttons: ['img/left1.png', 'img/right.png', 'up.gif', 'down.gif'], // path to nav images
+activeslideclass: 'selectedslide', // CSS class that gets added to currently shown DIV slide
+orientation: 'h', //Valid values: "h" or "v"
+persist: true, //remember last viewed slide and recall within same session?
+slideduration: 500 //transition duration (milliseconds)
+})
+
+</script>
+
+    <title>Good Look | Loja de Camisetas</title>
+  </head>
+  <body id="corpo">
+    <header > <a href="index.html"> <img class="voltar img" src="img/left.png" alt=""></a>
+      <span class="logo">GoodLook</span>
+</header>
+    <div id="header0"></div>
+    <h2>Camisa de Qualquer Coisa</h2>
+  <div id="slides"><div id="mybgcarousel" class="bgcarousel"></div></div>
+<!---->
+
+  <form>
+		<label for="genero">Selecione a opção de <b>Gênero</b></label><br>
+		<select name="genero" id="genero">
+			<option selected  value="masc">Masculino</option>
+			<option value="f">Baby Look</option>
+			<option value="g">Infantil</option>
+		</select>
+
+		<label for="tamanho">Selecione a opção de <b>Tamanho</b></label>
+		<select name="tamanho" id="tamanho">
+			<option value="p">P</option>
+			<option value="m">M</option>
+      <option value="g">G</option>
+      <option value="gg">GG</option>
+		</select>
+<p class="price"><h1>R$ 59,90</h1>
+  até 3x de R$ 19,96 sem juros<br> ou R$ 56,90 via Boleto Bancário</p>
+<input type="button" name="comprar" value="COMPRAR">
+</form>
+
+<div id="especificacoes">
+  <h3>Especificações</h3>
+  Curabitur arcu urna, sodales eget vehicula ac, lacinia et sem. Praesent ac eros ante. Pellentesque eget facilisis neque. Cras tortor nunc, accumsan tristique ligula at, sodales sollicitudin sem. Vivamus eu ante nec libero gravida gravida. Praesent feugiat hendrerit dolor. Proin auctor ante non enim tristique, in pharetra dolor porta. Maecenas semper fringilla ligula, in tempor leo vestibulum eu. Curabitur tincidunt tellus ex, accumsan elementum purus varius vitae.
+</div>
+
+<section id="s-produto2">
+  <h3>Produtos Relacionados</h3>
+    <div id="produto2">
+      <div id="camisa"></div>
+      <span id="preco"></span></div>
+
+    <div id="produto2">
+      <div id="camisa"></div>
+      <span id="preco"></span>
+    </div>
+
+    <div id="produto2">
+      <div id="camisa"></div>
+      <span id="preco"></span>
+    </div>
+
+    <div id="produto2">
+      <div id="camisa"></div>
+      <span id="preco"></span>
+    </div>
+  </section>
+          <!--footer-->
+          <footer>
+            <span>Sobre</span>
+            <span>Contato</span>
+            <span>Mapa do site</span><br>
+            <span>©2018 Goodlook.com. Todos os direitos reservados.</span>
+          </footer>
+
+  </body>
+</html>
